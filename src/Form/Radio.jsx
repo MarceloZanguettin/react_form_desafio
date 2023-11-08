@@ -13,7 +13,10 @@ const Radio = ({ pergunta, options, onChange, value, id }) => {
       {options.map((option) => (
         <label
           key={option}
-          style={{ marginBottom: '1rem', fontFamily: 'monospace' }}
+          style={{
+            marginBottom: '1rem',
+            fontFamily: 'monospace',
+          }}
         >
           <input
             type="radio"
