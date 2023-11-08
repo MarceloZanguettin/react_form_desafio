@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Radio = () => {
-  return <div></div>;
+  return (
+    <fieldset>
+      <legend>Nome da pergunta</legend>
+    </fieldset>
+  );
 };
 
 export default Radio;
