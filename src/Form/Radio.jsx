@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Radio = () => {
+const Radio = ({ pergunta, options, id }) => {
   return (
     <fieldset>
-      <legend>Nome da pergunta</legend>
+      <legend>{pergunta}</legend>
     </fieldset>
   );
 };

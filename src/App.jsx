@@ -47,7 +47,7 @@ const App = () => {
   return (
     <form>
       {perguntas.map((pergunta) => (
-        <Radio />
+        <Radio {...pergunta} />
       ))}
       <button>Próxima</button>
     </form>
